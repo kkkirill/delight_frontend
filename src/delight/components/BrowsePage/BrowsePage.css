@@ -1,0 +1,8 @@
+.browse-page {
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.browse-page__content {
+    margin: 0 20%;
+}

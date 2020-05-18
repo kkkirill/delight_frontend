@@ -1,0 +1,45 @@
+.track {
+    display: flex;
+    align-items: center;
+}
+
+.track__play-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    border: none;
+    outline: none;
+}
+
+.track__play-button-icon {
+    margin-left: 5px;
+    height: 30px;
+    width: 30px;
+}
+
+.track__main-content {
+    margin-left: 10px;
+    flex-grow: 1;
+}
+
+.track__length {
+    width: 5%;
+}
+
+.track__options {
+    display: none;
+    border: none;
+    outline: none;
+}
+
+.track:hover .track__options {
+    display: block;
+}
+
+.track:hover .track__length {
+    display: none
+}

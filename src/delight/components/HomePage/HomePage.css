@@ -1,0 +1,20 @@
+.home-page {
+    overflow-y: scroll;
+    height: 100%;
+}
+
+.home-page__content {
+    margin: auto;
+    width: 80%;
+    min-width: 800px;
+    display: flex;
+    margin-top: 40px;
+}
+
+.home-page__feed {
+    width: 60%;
+}
+
+.home-page__interests-section {
+    width: 30%;
+}

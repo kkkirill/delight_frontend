@@ -1,0 +1,39 @@
+body {
+  display: block;
+
+  margin: 0;
+
+  font-family: "Robo", sans-serif;
+}
+
+button {
+  color: inherit;
+  border: none;
+  outline: none;
+  background-color: inherit;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}
+
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.app__content-space {
+  overflow-y: hidden;
+  position: relative;
+  flex-grow: 1;
+}

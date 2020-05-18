@@ -1,0 +1,21 @@
+.limited-playlists-view {
+    min-height: 100px;
+}
+
+.limited-playlists-view__playlist {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.limited-playlists-view__playlist-cell {
+    margin: 5px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+
+.arrow {
+    position: absolute;
+    z-index: 2;
+}

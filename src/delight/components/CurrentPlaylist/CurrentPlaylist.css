@@ -1,0 +1,75 @@
+.current-playlist {
+    position: absolute;
+    top: 0;
+    background-color: #eeeeee;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.current-playlist__content {
+    margin: 10px 50px;
+}
+
+.current-playlist__tracks {
+    flex-grow: 1;
+}
+
+.current-playlist__header {
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.current-playlist_hidden {
+    display: none;
+}
+
+.current-playlist__image {
+    max-height: 150px;
+    width: 150px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.current-playlist__info-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: gray;
+    color: white;
+    border-radius: 10px;
+    height: 170px;
+}
+
+.current-playlist__private-checkbox-container {
+    display: flex;
+    align-items: center;
+}
+
+.current-playlist__info-section-text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    flex-grow: 1;
+}
+
+.current-playlist__title {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.current-playlist__title-input {
+    font-size: 24px;
+    margin: 0;
+}
+
+.current-playlist__artist {
+    font-size: 16px;
+    margin: 0;
+}
+
+.current-playlist__options {
+    margin: 10px;
+}

@@ -1,0 +1,41 @@
+.profile-page {
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.profile-page__content {
+    margin: auto;
+    width: 80%;
+    min-width: 800px;
+    display: flex;
+    margin-top: 40px;
+}
+
+.profile-page__feed {
+    width: 60%;
+}
+
+.profile-page__interests-section {
+    width: 30%;
+}
+
+.profile-page__add-post-button {
+    width: 100%;
+    font-size: 24px;
+    background-color: gray;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.profile-page__upload-track-button, .profile-page__follow-button {
+    background-color: gray;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.profile-page__create-playlist-button {
+    font-size: 16px;
+}

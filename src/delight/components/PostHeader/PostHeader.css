@@ -1,0 +1,24 @@
+.post-header {
+    display: flex;
+}
+
+.post-header__icon {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin: auto 10px;
+}
+
+.post-header__author-name-link {
+    text-decoration: none;
+    color: black;
+}
+
+.post-header__author-name {
+    text-transform: uppercase;
+}
+
+.post-header__icon-link {
+    display: flex;
+    align-items: center;
+}
